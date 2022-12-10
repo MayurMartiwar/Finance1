@@ -1,0 +1,75 @@
+{
+    "data": {
+        "type": "task_create_einvoice",
+        "attributes": {
+            "document_unique_id": "3004902953",
+            "request_payload": {
+                "SUPPLY_TYPE_CODE": "2",
+                "DOCUMENT_TYPE_CODE": "Invoice",
+                "DOCUMENT_NUM": "I009N2200000220",
+                "DOCUMENT_DATE": "2-8-22",
+                "SUPPLIER_LEGAL_NAME": "Cureboat Healthcare Pvt Ltd.",
+                "SUPPLIER_GSTIN":"06AAFCD7691C1ZN",
+                "SUPPLIER_ADDRESS1": "2nd Floor, Plot no 29 Industrial Area, GT Karnal Road",
+                "SUPPLIER_PLACE": "Gurgaon",
+                "SUPPLIER_STATE_CODE": "Maharastra",
+                "SUPPLIER_PINCODE": "122001",
+                "RECIPIENT_LEGAL_NAME": "2372575",
+                "RECIPIENT_GSTIN": "27AAACO6352Q1Zuygygy",
+                "RECIPIENT_ADDRESS1": "98218 dhu98 389d2dk",
+                "RECIPIENT_PLACE": "Kangra",
+                "RECIPIENT_STATE_CODE": "maha",
+                "RECIPIENT_PINCODE": "400000",
+                "ITEMS": [
+                    {
+                        "SERIAL_NUMBER": 1,
+                        "HSN_CODE": "1",
+                        "BATCH": 1,
+                        "QTY": 1,
+                        "UOM": "ml",
+                        "UNIT": "ml",
+                        "ITEM_PRICE": 12.09,
+                        "INVOICE_VALUE": 178.0009,
+                        "ITEM_DISCOUNT_AMOUNT": 0.0,
+                        "ITEM_TAXABLE_VALUE": 12.9078,
+                        "GST_RATE": 5,
+                        "IGST_AMOUNT": 0.0,
+                        "CGST_AMT": 0.0,
+                        "SGST_UTGSTAMT": 0.0,
+                        "ITEM_TOTAL_VALUE": 1234.98708,
+                        "BATCH_EXPIRY_DATE": "1",
+                        "BATCH_NAME": "1",
+                        "SKU_NAME": "KZ Lotion", 
+                        "ONEMG_SKU_ID": 25
+
+                       
+                    },
+                    {
+                        "SERIAL_NUMBER": 9,
+                        "HSN_CODE":"24462748",
+                        "BATCH": 7.912,
+                        "QTY": 1,
+                        "UOM": "ml",
+                        "UNIT": "1",
+                        "ITEM_PRICE": 12.90,
+                        "INVOICE_VALUE": 121.0,
+                        "ITEM_DISCOUNT_AMOUNT": 0.0,
+                        "ITEM_TAXABLE_VALUE": 171.7,
+                        "GST_RATE": 0,
+                        "IGST_AMOUNT": 0.0,
+                        "CGST_AMT": 0.0,
+                        "SGST_UTGSTAMT": 0.0,
+                        "ITEM_TOTAL_VALUE": 26.0,
+                        "BATCH_EXPIRY_DATE": "13",
+                        "BATCH_NAME": "1",
+                        "SKU_NAME": "90.90",
+                        "ONEMG_SKU_ID": 9
+                    }
+                ]
+                    
+                
+            },
+            "source_location_id": "54364034653"
+        }
+    }
+}
