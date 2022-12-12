@@ -9,4 +9,7 @@ def test_get_1():
     response = requests.get(url)
     json_response = json.loads(response.text)
     id = jsonpath.jsonpath(json_response, 'data.id')
-    assert id ==400
+    print(id)
+    print(response.status_code)
+    assert response.status_code==200
+
