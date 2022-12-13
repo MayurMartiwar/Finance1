@@ -22,7 +22,7 @@ def test_post_method1():
 
     print(response.json())
     print(response.status_code)
-    # assert response.status_code == 200
+    assert response.status_code == 200
 
 def test_headers():
     #Fetch Response Header
