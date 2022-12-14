@@ -41,6 +41,6 @@ def test_encoding():
     print(response.encoding)
 
 def test_elapseTime():
-    # Fetch Elapsed
-    print(response.elapsed)
+     # Fetch Elapsed
+   print(response.elapsed)
 
