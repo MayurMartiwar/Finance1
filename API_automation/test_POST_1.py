@@ -14,15 +14,12 @@ def test_post_method1():
     # print(response.text)
     with open('post.json') as file:
         data = json.load(file)
-    print(data.get('data'))
+    print(data)
     global response
     response = requests.post(url, data)
-
-
-
     print(response.json())
     print(response.status_code)
-    #assert response.status_code == 200
+    assert response.status_code == 200
 
 def test_headers():
     #Fetch Response Header
@@ -39,5 +36,6 @@ def test_encoding():
 def test_elapseTime():
     #Fetch Elapsed
     print(response.elapsed)
+
 
 
